@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo Steve"
+        android:textAppearance="?attr/textAppearanceHeadline3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Usia anda saat ini :"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Tahun"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/tvMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Bulan"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Hari"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bintang anda adalah :"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <TextView
+        android:id="@+id/tvZodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aries"
+        android:textAppearance="?attr/textAppearanceBody2" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:text="Ok" />
+</LinearLayout>
